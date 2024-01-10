@@ -1,0 +1,22 @@
+{
+    "name" : "Colourolla",
+    "description" : "An extension use to choose color",
+    "version" : "1.0",
+    "manifest_version" : 3,
+    "background" : {
+        "service_worker" : "picker.js"
+    },
+    "permissions" : [
+        "activeTab",
+        "scripting"
+    ],
+    "action" :{
+        "default_popup" : "index.html"
+    },
+    "icons": {
+        "16" : "picker_16.png",
+        "24" : "picker_24.png",
+        "32" : "picker_32.png",
+        "48" : "picker_48.png"
+    }
+}

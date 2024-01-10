@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: black;
+    color: aliceblue;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    align-items: center;
+}
+.pickclrbtn{
+    padding: 0.2rem;
+    background-color: rgb(159, 201, 75);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
